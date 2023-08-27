@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.11/tailwind.min.css"
+      integrity="sha512-KO1h5ynYuqsFuEicc7DmOQc+S9m2xiCKYlC3zcZCSEw0RGDsxcMnppRaMZnb0DdzTDPaW22ID/gAGCZ9i+RT/w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/signlogin.css" />
+    <title>Signin . . . . & explore our products</title>
+  </head>
+  <body>
+    <!---------Main container...----------->
+    <div class="background" id="background"></div>
+    <div class="bg-white rounded p-10 text-center shadow-md border-radius">
+      <h1 class="text-3xl">Sign In</h1>
+      <p class="text-sm text-gray-700">Please SignIn to explore our products</p>
+      <div class="my-2 text-left">
+        <label for="email" class="text-gray-900">Email:</label>
+        <input
+          type="text"
+          class="border block w-full p-2 mt-1 rounded"
+          id="email"
+          placeholder="Enter Email"
+        />
+      </div>
+
+      <div class="my-4 text-left">
+        <label for="email" class="text-gray-900">Password:</label>
+        <input
+          type="password"
+          class="border block w-full p-2 mt-2 rounded"
+          id="password"
+          placeholder="Enter Password"
+        />
+      </div>
+
+      <button
+        class="bg-black text-white py-2 mt-4 inline-block w-full rounded hoveer"
+        type="submit"
+      >
+        Submit
+      </button>
+      <div class="iconss">
+        <a href="#"><img src="img/google_2991148.png" alt="Google" /></a
+        ><a href="#"><img src="img/facebook_145802.png" alt="Facebook" /></a
+        ><a href=""><img src="img/apple_2175370.png" alt="Apple" /></a>
+      </div>
+      <div class="already">
+        <p>Already have an account? <a href="#">LOG IN</a></p>
+      </div>
+    </div>
+
+    <script src="js/signlogin.js"></script>
+  </body>
+</html>

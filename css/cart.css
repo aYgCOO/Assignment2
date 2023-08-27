@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+  padding-bottom: 0vh;
+}
+.hero {
+  width: 100vw;
+  height: 10vh;
+}
+.nav-sticky {
+  position: fixed;
+}
+.background {
+  background: rgba(18, 18, 18, 0.397) url("../img/gift-shop-background.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.logo h1 a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: rgb(17, 17, 17);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  padding: 10px;
+  height: 8vh;
+  width: 100vw;
+  background-color: rgba(248, 248, 246, 0.997);
+}
+h1 a {
+  /* font-family: "Space Grotesk", sans-serif;
+font-family: "Ubuntu", sans-serif; */
+
+  text-decoration: none;
+  color: #fff;
+
+  margin-left: 90px;
+}
+
+.manu {
+  display: flex;
+  align-items: center;
+  margin-left: 60%;
+}
+ul li {
+  list-style: none;
+  float: right;
+}
+ul li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+ul li a:hover {
+  cursor: pointer;
+  color: yellow;
+  font-weight: bold;
+}
+
+.manu a img {
+  width: 1.8vw;
+  margin-top: 8px;
+}
+
+.box {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  top: 20vh;
+  right: 10vw;
+  padding: 10px;
+  width: 80vw;
+  height: 500px;
+}
+
+.main-row {
+  padding: 20px;
+
+  display: flex;
+}
+.main-row li {
+  position: absolute;
+  background-color: rgb(255, 166, 0);
+  top: 10%;
+  width: 100vw;
+}
