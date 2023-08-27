@@ -1,7 +1,7 @@
 "CharmAvenue"
 AI GIFT SHOP.
 Live link: https://charmavenue.netlify.app/
-I created an AI-integrated e-commerce gift shop website, using HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript.
+I created an e-commerce gift shop website with an AI interface, using HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript.
 It's an essential front-end website with excellent responsiveness.
 Name: Ayanbha Chatterjee
 Skills: HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript.
