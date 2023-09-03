@@ -11,8 +11,8 @@
   --icon-color: #f5f5f6;
   --icon-hover-bg: #9a9a9c;
   --placeholder-color: #dcdcdc;
-  --outgoing-chat-bg: #202020;
-  --incoming-chat-bg: #1b1b1b;
+  --outgoing-chat-bg: #373636;
+  --incoming-chat-bg: #5a5959;
   --outgoing-chat-border: #323233;
   --incoming-chat-border: #2a2929;
 }
@@ -223,7 +223,7 @@ span.material-symbols-rounded {
 /* Reponsive Media Query */
 @media screen and (max-width: 600px) {
   .default-text h1 {
-    font-size: 2.3rem;
+    font-size: 1.8rem;
   }
   :where(.default-text p, textarea, .chat p) {
     font-size: 0.95rem !important;
