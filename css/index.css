@@ -166,11 +166,10 @@ ul li a:hover {
     visibility: visible;
     pointer-events: auto;
   }
-  .active .mobile-navbar-btn .mobile-manu-icon[name="close-circle"] {
+
+  .active .mobile-navbar-btn .mobile-manu-icon {
+    width: 8%;
     display: block;
-  }
-  .active .mobile-navbar-btn .mobile-manu-icon[name="grid"] {
-    display: none;
   }
   .logo h1 a {
     font-size: 1.8rem;
