@@ -10,7 +10,6 @@
 }
 body {
   background-color: #fff;
-  margin-top: 0px;
 }
 .backgroundImage {
   background: rgba(18, 18, 18, 0.397) url("../img/gift-shop-background.jpg");
@@ -22,9 +21,9 @@ nav {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 10px;
   height: 10vh;
   background-color: #fff;
+  z-index: 999;
   position: sticky;
 }
 .logoo {
@@ -110,6 +109,9 @@ nav {
   display: flex;
   position: relative;
 }
+.mainContiner {
+  margin-top: 40px;
+}
 .section1 {
   width: 1080px;
   overflow: hidden;
@@ -125,7 +127,6 @@ nav {
   height: max-content;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 10px auto;
 }
 .section2 .container .items {
   margin: 10px;

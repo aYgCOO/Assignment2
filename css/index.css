@@ -8,6 +8,24 @@
 html {
   overflow-x: hidden;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltipText {
+  background-color: #222;
+  color: white;
+  visibility: hidden;
+  width: 100px;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -76,10 +94,10 @@ ul li a:hover {
   align-items: center;
 }
 .mobile-manu-icon {
-  width: 25px;
-  height: 25px;
-  margin: 15px;
+  font-size: 2rem;
   display: none;
+  margin-right: 30px;
+  margin-bottom: 18px;
 }
 .mobile-manu-icon[name="close-circle"] {
   display: none;
@@ -157,6 +175,9 @@ ul li a:hover {
     visibility: hidden;
     pointer-events: none;
   }
+  .tooltip:hover .tooltipText {
+    visibility: hidden;
+  }
   .manu ul li a img {
     width: 50px;
   }
@@ -178,8 +199,7 @@ ul li a:hover {
     margin-top: 88px;
     position: fixed;
     display: block;
-    width: 40px;
-    height: 40px;
+    font-size: 2rem;
   }
   .hero {
     height: 70vh;
