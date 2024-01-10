@@ -94,13 +94,18 @@ ul li a:hover {
   align-items: center;
 }
 .mobile-manu-icon {
-  font-size: 2rem;
+  font-size: 5rem;
   display: none;
   margin-right: 30px;
   margin-bottom: 18px;
 }
-.mobile-manu-icon[name="close-circle"] {
+.mobile-manu-icon[name="grid"] {
   display: none;
+}
+ion-icon {
+  font-size: 2.5rem;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 /* Design main body .hero */
