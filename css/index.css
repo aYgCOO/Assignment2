@@ -40,73 +40,11 @@ body {
   background-blend-mode: darken;
 }
 
-/* Star Navbar design...... */
-.logo h1 a {
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  color: rgb(17, 17, 17);
+ /* Custom CSS for navbar */
+ .navbar .tooltipText {
+  display: none; /* Hide tooltipText by default */
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  padding: 10px;
-  height: 10vh;
-  width: 100vw;
-  background-color: rgba(248, 248, 246, 0.997);
-}
-h1 a {
-  text-decoration: none;
-  color: #fff;
-  margin-left: 60px;
-}
-
-.manu {
-  display: flex;
-  align-items: center;
-  margin-left: 50%;
-}
-ul li {
-  list-style: none;
-  float: right;
-}
-ul li a {
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  padding: 20px;
-  margin: 0;
-}
-ul li a:hover {
-  cursor: pointer;
-  color: yellow;
-  font-weight: bold;
-}
-
-.manu ul li a img {
-  width: 30px;
-  margin-top: 8px;
-}
-.mobile-navbar-btn {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-.mobile-manu-icon {
-  font-size: 5rem;
-  display: none;
-  margin-right: 30px;
-  margin-bottom: 18px;
-}
-.mobile-manu-icon[name="grid"] {
-  display: none;
-}
-ion-icon {
-  font-size: 2.5rem;
-  margin-right: 20px;
-  margin-top: 20px;
-}
 
 /* Design main body .hero */
 .hero {
@@ -157,13 +95,14 @@ ion-icon {
 .footer h4 {
   margin: 10px;
 }
+   
 
 @media screen and (max-width: 1446px) {
-  .manu {
+  /* .manu {
     width: 6vh;
   }
   .manu ul {
-    /* display: none; */
+    /* display: none; 
     width: 100%;
     height: 100vh;
     background-color: white;
@@ -205,7 +144,7 @@ ion-icon {
     position: fixed;
     display: block;
     font-size: 2rem;
-  }
+  } */
   .hero {
     height: 70vh;
   }
@@ -221,5 +160,10 @@ ion-icon {
   }
   .footer h4 {
     font-size: 15px;
+  }
+}
+@media (max-width: 767.98px) {
+  .navbar .tooltipText {
+    display: block; /* Display tooltipText on smaller screens */
   }
 }

@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+  ">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+  "></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <title>CharmAvenue - Transforming moments into memories.</title>
 </head>
@@ -13,117 +20,98 @@
 <body>
   <header class="header active">
     <!---Navbar---->
-    <nav class="navbar">
-      <div class="logo">
-        <h1><a href="#">CharmAvenue</a></h1>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">CharmAvenue</a>
+          <!-- Toggle button for mobile -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="index.html"><i class="ri-home-5-fill menu-icons"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="login.html"><i class="ri-account-circle-fill menu-icons"></i> Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="chatbot.html"><i class="ri-robot-2-fill menu-icons"></i> Chatbot</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="shop.html" target="_blank"><i class="ri-shopping-bag-fill menu-icons"></i> Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="cart.html"><i class="ri-shopping-cart-fill menu-icons"></i> Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="about.html"><i class="ri-file-list-3-line menu-icons"></i> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="signin.html"><i class="ri-login-circle-line menu-icons"></i> SignIn</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!---Navbar---->
+
+    <!----Hero-Body----->
+
+    <div class="hero backgroundImage">
+      <div class="container">
+        <h1>CharmAvenue</h1>
+        <p>"Transforming moments into memories, one gift at a time."</p>
       </div>
-      <div class="manu">
-        <ul>
-          <li>
-            <div class="tooltip">
-              <a href="login.html"><img src="img/login-icon.png" alt="login_icon" /></a>
-              <div class="tooltipText">LogIng</div>
-            </div>
-          </li>
-          <li>
-            <div class="tooltip">
-              <a href="signin.html"><img src="img/sign-in.png" alt="signin_icon" /></a>
-              <div class="tooltipText">SignIn</div>
-            </div>
-          </li>
-          <li>
-            <div class="tooltip">
-              <a href="cart.html"><img src="img/shopping-cart_2838838.png" alt="cart" /></a>
-              <div class="tooltipText">Cart</div>
-            </div>
-          </li>
-          <li>
-            <div class="tooltip">
-              <a href="chatbot.html"><img src="img/chatbot_2068998.png" alt="chat-bot" /></a>
-              <div class="tooltipText">Chatbot</div>
-            </div>
-          </li>
-          <li>
-            <div class="tooltip">
-              <a href="shop.html" target="_blank"><img src="img/bag_2430422.png" alt="shopingBag" /></a>
-              <div class="tooltipText">Shop</div>
-            </div>
-          </li>
-          <li>
-            <div class="tooltip">
-              <a href="about.html"><img src="img/about.png" alt="about" /></a>
-              <div class="tooltipText">About</div>
-            </div>
-          </li>
-          <li>
-            <div class="tooltip">
-              <a href="index.html"><img src="img/home_10263239.png" alt="Home" /></a>
-              <div class="tooltipText">Home</div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="mobile-navbar-btn">
-      <ion-icon name="grid"></ion-icon>
-      <!-- <ion-icon name="grid" class="mobile-manu-icon"></ion-icon>
-        <ion-icon name="close-circle" class="mobile-manu-icon"></ion-icon> -->
     </div>
-  </header>
-  <!---Navbar---->
 
-  <!----Hero-Body----->
+    <!----Hero-Body----->
 
-  <div class="hero backgroundImage">
-    <div class="container">
-      <h1>CharmAvenue</h1>
-      <p>"Transforming moments into memories, one gift at a time."</p>
-    </div>
-  </div>
+    <section class="container content">
+      <!-------Container 1-------->
+      <h2>Welcome</h2>
+      <p>
+        "Welcome to CharmAvenue, where every gift is a masterpiece waiting to be
+        discovered. We take pride in offering a treasure trove of unique and
+        stylish gifts that are as unforgettable as the moments you share them
+        in. From intricately crafted jewelry to artisanal home decor, our
+        collection is a testament to the art of gifting. We believe that the
+        best gifts are the ones that create memories and smiles, and that's
+        precisely what we aim to deliver. Join us in the joy of gifting, and let
+        us help you make every occasion extraordinary."
+      </p>
+      <!-------Container 1-------->
 
-  <!----Hero-Body----->
+      <!-------Container 2-------->
+      <h3>About</h3>
+      <p>
+        "At CharmAvenue, we believe that gifting is an art, a gesture that
+        speaks volumes of love, appreciation, and thoughtfulness. Our handpicked
+        selection of gifts is a manifestation of this belief, carefully curated
+        to add a touch of charm and elegance to every occasion. Whether you're
+        celebrating a special milestone, expressing gratitude, or simply
+        spreading joy, we're here to make your gifting experience a delightful
+        journey. Explore our world of enchanting presents, and let each gift
+        tell a story of love."
+      </p>
+      <!-------Container 2-------->
+    </section>
 
-  <section class="container content">
-    <!-------Container 1-------->
-    <h2>Welcome</h2>
-    <p>
-      "Welcome to CharmAvenue, where every gift is a masterpiece waiting to be
-      discovered. We take pride in offering a treasure trove of unique and
-      stylish gifts that are as unforgettable as the moments you share them
-      in. From intricately crafted jewelry to artisanal home decor, our
-      collection is a testament to the art of gifting. We believe that the
-      best gifts are the ones that create memories and smiles, and that's
-      precisely what we aim to deliver. Join us in the joy of gifting, and let
-      us help you make every occasion extraordinary."
-    </p>
-    <!-------Container 1-------->
+    <!-----Footer!------>
+    <footer class="footer backgroundImage">
+      Copyright ©
+      <h4>CharmAvenue</h4>
+      2023-2030
+    </footer>
+    <!-----Footer!------>
 
-    <!-------Container 2-------->
-    <h3>About</h3>
-    <p>
-      "At CharmAvenue, we believe that gifting is an art, a gesture that
-      speaks volumes of love, appreciation, and thoughtfulness. Our handpicked
-      selection of gifts is a manifestation of this belief, carefully curated
-      to add a touch of charm and elegance to every occasion. Whether you're
-      celebrating a special milestone, expressing gratitude, or simply
-      spreading joy, we're here to make your gifting experience a delightful
-      journey. Explore our world of enchanting presents, and let each gift
-      tell a story of love."
-    </p>
-    <!-------Container 2-------->
-  </section>
-
-  <!-----Footer!------>
-  <footer class="footer backgroundImage">
-    Copyright ©
-    <h4>CharmAvenue</h4>
-    2023-2030
-  </footer>
-  <!-----Footer!------>
-
-  <script src="js/index.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
