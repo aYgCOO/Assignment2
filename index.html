@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="UTF-8" />
@@ -18,96 +18,400 @@
 </head>
 
 <body>
-  <header class="header active">
+ 
     <!---Navbar---->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">CharmAvenue</a>
-          <!-- Toggle button for mobile -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="index.html"><i class="ri-home-5-fill menu-icons"></i> Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="chatbot.html"><i class="ri-robot-2-fill menu-icons"></i> Chatbot</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="shop.html" target="_blank"><i class="ri-shopping-bag-fill menu-icons"></i> Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="cart.html"><i class="ri-shopping-cart-fill menu-icons"></i> Cart</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="about.html"><i class="ri-file-list-3-line menu-icons"></i> About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="login.html"><i class="ri-login-circle-line"></i> LogIn</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="signin.html"><i class="ri-login-box-line"></i> SignIn</a>
-              </li>
-              
-            </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Venus <i class="ri-store-2-line"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active btn-light" aria-current="page" href="index.html"><i class="ri-home-5-fill menu-icons"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark btn-light" href="cart.html"><i class="ri-shopping-cart-fill menu-icons"></i> Cart</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark btn-light" href="about.html"><i class="ri-file-list-3-line menu-icons"></i> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark btn-light" href="login.html"><i class="ri-login-circle-line"></i> LogIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark btn-light" href="signin.html"><i class="ri-login-box-line"></i> SignIn</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" style="border-radius: 50px;" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark rounded-circle" type="submit"><i class="ri-search-line"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!---Navbar---->
+
+    <!---------Main...----------->
+
+  
+        <!---Box container---->
+        <div class="section2">
+        <div class=" my-3 container">
+
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 border bg-light mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/shoes.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">SHOES</div>
+            <div class="price">$5</div>
+            <div class="info">SHOES - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+            </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/menT-Shirt.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">MEN's T-SHIRT</div>
+            <div class="price">$6.34</div>
+            <div class="info">MEN's T-SHIRT Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+            </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/saree.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">SAREE</div>
+            <div class="price">$8</div>
+            <div class="info">SAREE - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/watch.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">WATCH</div>
+            <div class="price">$7</div>
+            <div class="info">WATCH - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+            </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/mobile.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">SMART PHONE</div>
+            <div class="price">$20</div>
+            <div class="info">SMART PHONE - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/television.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">TELEVISION</div>
+            <div class="price">$22</div>
+            <div class="info">TELEVISION - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/Laptop.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">LAPTOP</div>
+            <div class="price">$22</div>
+            <div class="info">LAPTOP - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/dinner-set.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">DINNER SET</div>
+            <div class="price">$10</div>
+            <div class="info">DINNER SET - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/blankets&kushen.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">BLANKETS</div>
+            <div class="price">$9.9</div>
+            <div class="info">BLANKETS - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/Ac.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">AIR CONDITIONER</div>
+            <div class="price">$78</div>
+            <div class="info">AIR CONDITIONER - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/microwave.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">MICROWAVE</div>
+            <div class="price">$30</div>
+            <div class="info">MICROWAVE - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/coffee-maker.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">COFFEE MAKER</div>
+            <div class="price">$29.7</div>
+            <div class="info">COFFEE MAKER - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/bed.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">BED</div>
+            <div class="price">$100</div>
+            <div class="info">BED - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/painting.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">PAINTAINGS</div>
+            <div class="price">$78</div>
+            <div class="info">PAINTAINGS - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/stackOfBooks.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">BOOK</div>
+            <div class="price">$9</div>
+            <div class="info">BOOK - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/bag.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">BAG</div>
+            <div class="price">$36.5</div>
+            <div class="info">BAG - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/garments.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">GARMENTS</div>
+            <div class="price">$25.6</div>
+            <div class="info">GARMENTS - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/iphone.jpeg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">IPHONE</div>
+            <div class="price">$56</div>
+            <div class="info">IPHONE - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/kids-garments.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">KID-GARMENTS</div>
+            <div class="price">$5</div>
+            <div class="info">KID-GARMENTS - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/sports.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">SPORTS-EQUIMENTS</div>
+            <div class="price">$5</div>
+            <div class="info">SPORTS-EQUIMENTS - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/head-phone.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">HEADPHONE</div>
+            <div class="price">$5</div>
+            <div class="info">HEADPHONE - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/camera.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">CAMERA</div>
+            <div class="price">$5</div>
+            <div class="info">CAMERA - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/office-cover.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">OFFICE-CHAIR</div>
+            <div class="price">$5</div>
+            <div class="info">OFFICE-CHAIR - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
+          </div>
+
+          <div class="border bg-light col-12 col-md-6 col-lg-4 col-xl-3 mx-2 my-2">
+            <div class="card card-video border-0 bg-transparent mb-4 ">
+              <img src="images/lab-equiment.jpg" class="image" alt="" />
+            </div>
+            <div class="px-2">
+            <div class="name">LAB_EQUIMENTS</div>
+            <div class="price">$5</div>
+            <div class="info">LAB-EQUIMENTS - Description.</div>
+            <button class="btn btn-dark btn-sm my-2">Shop now <i class="ri-shopping-bag-fill"></i></button>
+          </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <!---Navbar---->
-
-    <!----Hero-Body----->
-
-    <div class="hero backgroundImage">
-      <div class="container">
-        <h1>CharmAvenue</h1>
-        <p>"Transforming moments into memories, one gift at a time."</p>
       </div>
-    </div>
+      <!-----Box Container------>
 
-    <!----Hero-Body----->
-
-    <section class="container content">
-      <!-------Container 1-------->
-      <h2>Welcome</h2>
-      <p>
-        "Welcome to CharmAvenue, where every gift is a masterpiece waiting to be
-        discovered. We take pride in offering a treasure trove of unique and
-        stylish gifts that are as unforgettable as the moments you share them
-        in. From intricately crafted jewelry to artisanal home decor, our
-        collection is a testament to the art of gifting. We believe that the
-        best gifts are the ones that create memories and smiles, and that's
-        precisely what we aim to deliver. Join us in the joy of gifting, and let
-        us help you make every occasion extraordinary."
-      </p>
-      <!-------Container 1-------->
-
-      <!-------Container 2-------->
-      <h3>About</h3>
-      <p>
-        "At CharmAvenue, we believe that gifting is an art, a gesture that
-        speaks volumes of love, appreciation, and thoughtfulness. Our handpicked
-        selection of gifts is a manifestation of this belief, carefully curated
-        to add a touch of charm and elegance to every occasion. Whether you're
-        celebrating a special milestone, expressing gratitude, or simply
-        spreading joy, we're here to make your gifting experience a delightful
-        journey. Explore our world of enchanting presents, and let each gift
-        tell a story of love."
-      </p>
-      <!-------Container 2-------->
-    </section>
-
-    <!-----Footer!------>
-    <footer class="footer backgroundImage">
-      Copyright ©
-      <h4>CharmAvenue</h4>
-      2023-2030
+    <!--Footer.......-->
+    <footer>
+      <div class="footer0">
+      </div>
+      <div class="footer1">
+        Connect with us 
+        <div class="social-media">
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="product">
+          <div class="heading">Products</div>
+          <div class="div">Sell your Products</div>
+          <div class="div">Advertise</div>
+          <div class="div">Pricing</div>
+          <div class="div">Product Buisness</div>
+        </div>
+        <div class="services">
+          <div class="heading">Services</div>
+          <div class="div">Return</div>
+          <div class="div">Cash Back</div>
+          <div class="div">Affiliate Marketing</div>
+          <div class="div">Others</div>
+        </div>
+        <div class="Company">
+          <div class="heading">Company</div>
+          <div class="div">Complaint</div>
+          <div class="div">Careers</div>
+          <div class="div">Affiliate Marketing</div>
+          <div class="div">Support</div>
+        </div>
+        <div class="Get Help">
+          <div class="heading">Get Help</div>
+          <div class="div">Help Center</div>
+          <div class="div">Privacy Policy</div>
+          <div class="div">Terms</div>
+          <div class="div">Login</div>
+        </div>
+      </div>
+      <div class="footer3">
+        Copyright © 2030  Venus <i class="ri-store-2-line"></i>
+      </div>
     </footer>
-    <!-----Footer!------>
+    <!--Footer.......-->
+
+
 
     <script src="js/index.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
