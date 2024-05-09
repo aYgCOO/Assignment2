@@ -1,10 +1,6 @@
-"CharmAvenue"
-AI GIFT SHOP.
-Live link: https://charm-avenue.vercel.app/
-I created an e-commerce gift shop website with an AI interface, using HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript.
-It's an essential front-end website with excellent responsiveness.
-Name: Ayanbha Chatterjee
-Skills: HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript.
-Gmail: ayanabhachatterjee@gmail.com
+# Venus 
+<p>E-commerce Shop</p>
+Live link: https://venus-olive-phi.vercel.app/ <br>
+If you would like to contribute or need more details, please feel free to email me at ayanabhachatterjee@gmail.com.
 
 
