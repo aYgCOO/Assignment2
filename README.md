@@ -8,7 +8,7 @@ Live link: https://venus-olive-phi.vercel.app/ <br>
 <img src="Screenshot (356).png" /><br>
 
 <h3>Mobile View</h3>
-<img src="mobile.png" />
+<img src="mobile.jpg" />
 
 
 
